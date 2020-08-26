@@ -451,11 +451,10 @@ pre {
     word-break: normal; }
 
 .pre-scrollable {
-  max-height: 340px;
+  max-height: 280px;
   overflow-y: scroll; }
 
 .container {
-  
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -1512,7 +1511,6 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    overflow: scroll;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-sm > .table-bordered {
@@ -1523,7 +1521,6 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    overflow: scroll;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-md > .table-bordered {
@@ -1544,7 +1541,6 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    overflow: scroll;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-xl > .table-bordered {
@@ -1554,7 +1550,6 @@ pre {
   display: block;
   width: 100%;
   overflow-x: auto;
-  overflow: scroll;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar; }
   .table-responsive > .table-bordered {
