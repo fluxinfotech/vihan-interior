@@ -45,7 +45,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 @-ms-viewport {
@@ -168,7 +168,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
-  -ms-overflow-style: -ms-autohiding-scrollbar; }
+  -ms-overflow-style: scrollbar; }
 
 figure {
   margin: 0 0 1rem; }
@@ -455,6 +455,7 @@ pre {
   overflow-y: scroll; }
 
 .container {
+  
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -1511,6 +1512,7 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
+    overflow: scroll;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-sm > .table-bordered {
@@ -1521,6 +1523,7 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
+    overflow: scroll;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-md > .table-bordered {
@@ -1541,6 +1544,7 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
+    overflow: scroll;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-xl > .table-bordered {
@@ -1550,6 +1554,7 @@ pre {
   display: block;
   width: 100%;
   overflow-x: auto;
+  overflow: scroll;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar; }
   .table-responsive > .table-bordered {
